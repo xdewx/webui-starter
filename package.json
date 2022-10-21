@@ -1,0 +1,23 @@
+{
+  "name": "webui-starter",
+  "version": "1.0.0",
+  "description": "探索不同UI框架的用法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdewx/webui-starter.git"
+  },
+  "keywords": [
+    "ui",
+    "vue3"
+  ],
+  "author": "leoking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdewx/webui-starter/issues"
+  },
+  "homepage": "https://github.com/xdewx/webui-starter#readme"
+}
