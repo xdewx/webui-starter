@@ -1,27 +1,20 @@
 {
   "name": "webui-starter",
-  "version": "1.0.0",
-  "description": "探索不同UI框架的用法",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xdewx/webui-starter.git"
+  "dependencies": {
+    "vue": "^3.2.37"
   },
-  "keywords": [
-    "ui",
-    "vue3"
-  ],
-  "author": "leoking",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xdewx/webui-starter/issues"
-  },
-  "homepage": "https://github.com/xdewx/webui-starter#readme",
   "devDependencies": {
-    "naive-ui": "^2.33.5",
-    "vfonts": "^0.0.3"
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
   }
 }
